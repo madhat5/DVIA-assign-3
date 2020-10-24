@@ -11,6 +11,7 @@
 
 - Dataset: 
     > https://www.basketball-reference.com/playoffs/series.html
+    > https://teamcolorcodes.com/nba-team-color-codes/
 - combine sports data w/
     - underdog vs favorite?
     - team/fan base sentiment?
