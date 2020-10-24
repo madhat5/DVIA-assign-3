@@ -1,0 +1,6 @@
+*.DS_Store
+*.env
+*package-lock.json.json
+*node_modules
+*.psd
+*.vscode
