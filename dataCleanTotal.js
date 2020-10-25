@@ -172,7 +172,11 @@ let removeEmpty = function () {
     // remove
     let i = data.length
     while (i--) {
-        if (data[i].series == "") {
+        if (
+            data[i].series == ""
+            || data[i].teams.a.hasOwnProperty("colors") == false 
+            || data[i].teams.b.hasOwnProperty("colors") == false
+        ) {
             data.splice(i, 1);
         }
     }
