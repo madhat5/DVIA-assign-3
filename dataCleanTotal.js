@@ -102,13 +102,13 @@ let seriesDataClean = function (fileName) {
             teams: {
                 a: {
                     name: $(el).children('td:nth-child(6)').text().split(' (')[0],
-                    wins: $(el).children('td:nth-child(7)').text(),
+                    wins: parseInt($(el).children('td:nth-child(7)').text()),
                     favorite: boolCheck(teamAUrl, favUrl),
                     underdog: boolCheck(teamAUrl, underdogUrl),
                 },
                 b: {
                     name: $(el).children('td:nth-child(9)').text().split(' (')[0],
-                    wins: $(el).children('td:nth-child(10)').text(),
+                    wins: parseInt($(el).children('td:nth-child(10)').text()),
                     favorite: boolCheck(teamBUrl, favUrl),
                     underdog: boolCheck(teamBUrl, underdogUrl),
                 }
